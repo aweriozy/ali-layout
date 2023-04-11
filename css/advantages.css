@@ -1,0 +1,63 @@
+#advantages_block {
+    background: #7224EA;
+    overflow: hidden;
+}
+
+#advantages_block .content {
+    padding: 70px 0px;
+    display: grid;
+    grid-template-columns: 70% 1fr;
+    position: relative;
+}
+
+#advantages_block .my_button {
+    margin-top: 70px;
+}
+#advantages_block .content .left_path{
+    z-index: 1;
+}
+#advantages_block .content h2 {
+    margin-bottom: 70px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+
+}
+
+.advantages_items {
+    display: grid;
+    grid-gap: 30px 45px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.advantages_item {
+    display: grid;
+    background: white;
+    align-items: center;
+    grid-gap: 20px;
+    padding: 40px 30px;
+    grid-template-columns: 35px 1fr;
+}
+
+
+.advantages_item p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+#advantages_block .content .right_path img{
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    height: 700px;
+    right: -368px;
+    opacity: 0.8;
+}

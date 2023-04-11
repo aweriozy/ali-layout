@@ -1,0 +1,223 @@
+@import "./reset.css";
+@import "./advantages.css";
+@import "./global.css";
+@import "./problem.css";
+@import "./reasons.css";
+@import "./process.css";
+@import "./successes.css";
+@import "./starting_block.css";
+@import "./registration.css";
+@import "./footer.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;500;700&display=swap");
+body {
+  background: no-repeat;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0;
+  position: absolute;
+  top: 0;
+  z-index: 400;
+  width: 100%;
+}
+
+.header_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 a {
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+nav {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+}
+
+li a {
+  font-family: "Roboto Condensed", sans-serif;
+  white-space: nowrap;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+#main_block {
+  background: rgb(101, 31, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(101, 31, 255, 1) 0%,
+    rgba(255, 89, 0, 1) 22%,
+    rgba(253, 191, 15, 0.3) 55%,
+    rgba(0, 212, 255, 0) 100%
+  );
+}
+
+.section_content {
+  display: flex;
+  align-self: flex-end;
+  column-gap: 71px;
+  padding-top: 46px;
+}
+
+.contacts {
+  display: flex;
+}
+
+.contacts p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.contacts_button {
+  background: #000000;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 0 20px;
+}
+
+.firstBlock {
+  z-index: 1;
+  padding-top: 84px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.adress {
+  display: flex;
+  align-items: flex-start;
+  white-space: nowrap;
+  column-gap: 16px;
+}
+
+.contacts {
+  align-items: flex-start;
+  display: flex;
+  column-gap: 11px;
+}
+
+.contacts_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts_text h2 {
+  margin-bottom: 8px;
+}
+
+.welcome {
+  position: relative;
+  z-index: 1;
+  padding-top: 93px;
+}
+
+.welcome h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 63px;
+  color: #ffffff;
+  display: flex;
+  margin-bottom: -20px;
+}
+
+.welcome p {
+  margin-bottom: 30px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  padding-top: 26px;
+}
+
+.welcome button {
+  background: #000;
+  border-radius: 10px;
+  height: 60px;
+  width: 256px;
+  color: #ffffff;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 166px;
+}
+
+.welcome a {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.welcome_text {
+  display: flex;
+  column-gap: 167px;
+}
+
+.rounds {
+  pointer-events: none;
+  position: absolute;
+  width: 1282.67px;
+  height: 100%;
+  bottom: 0px;
+}
+
+.girl {
+  pointer-events: none;
+  position: absolute;
+  right: 260px;
+  bottom: 0;
+}
+
+.ali {
+  pointer-events: none;
+  position: absolute;
+  width: 616.28px;
+  height: 615px;
+  right: -110px;
+  bottom: 0;
+}

@@ -1,0 +1,102 @@
+#achievements {
+  z-index: -1;
+  position: relative;
+  background: #f5f5f5;
+}
+#achievements .packet {
+  position: absolute;
+  z-index: 0;
+  bottom: 301px;
+  left: 700px;
+  height: 408px;
+}
+#achievements .container .EllipseFirst {
+  padding-left: calc(50% - 72px);
+  padding-bottom: 43px;
+}
+
+#achievements .container .EllipseSecond{
+  
+}
+#achievements h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: #000000;
+  padding: 70px 722px 102px 0px;
+}
+#achievements .content {
+  z-index: 1;
+  position: relative;
+  background: #ffffff;
+  border: 1px solid rgba(229, 229, 229, 0.6);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.14),
+    0px 16px 24px rgba(0, 0, 0, 0.08);
+  display: flex;
+  margin-bottom: 48px;
+}
+#achievements .content .label {
+  z-index: 2;
+  position: absolute;
+  left: 34px;
+  top: -20px;
+}
+#achievements .content .left_path {
+  margin: 157px 107px 143px 101px;
+}
+#achievements .content .left_path img {
+  max-width: 92px;
+}
+#achievements .content .right_path h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  padding-top: 55px;
+}
+#achievements .content .right_path p {
+  padding-top: 24px;
+  padding-right: 308px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+#achievements .content .right_path .achievements_items {
+  padding-top: 67px;
+  padding-bottom: 48px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 25px;
+}
+#achievements .content .right_path .achievements_item {
+  display: grid;
+  grid-template-columns: 34px 178px 1fr;
+  column-gap: 20px;
+  align-items: center;
+  text-align: left;
+}
+#achievements .content .right_path .achievements_item h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+}
+#achievements .content .right_path .achievements_item h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  padding-right: 80px;
+}

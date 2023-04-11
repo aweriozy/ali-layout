@@ -1,0 +1,49 @@
+#starting_block {
+    background: #651FFF;
+}
+
+/* Бэкграунд */
+
+#starting_block h1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+    padding-top: 49px;
+    padding-bottom: 61px;
+}
+
+/* Текст "Как начать?" */
+#starting_block .forms .Form p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FEFEFE;
+}
+
+/* Текст параграфов этого блока */
+#starting_block .forms {
+    display: flex;
+    padding-bottom: 80px;
+    column-gap: 30px;
+}
+
+/* Расстояние между формами и расположение  */
+#starting_block .forms .Form {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 60px 180px 50px;
+}
+
+#starting_block .forms .Form img {
+    margin: auto 0;
+    margin-right: 12px;
+}
+
+/* Расположение картинок(Кружки,стрелочки) */

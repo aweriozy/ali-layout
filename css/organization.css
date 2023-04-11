@@ -1,0 +1,74 @@
+#organization_block {
+  background: #f5f5f5;
+  position: relative;
+}
+#organization_block .man {
+  position: absolute;
+  top: 183px;
+  left: 388px;
+  height: 646px;
+}
+#organization_block h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: #000000;
+  padding: 70px 65px 0px 53px;
+}
+#organization_block .content {
+  padding-top: 54px;
+  z-index: 2;
+}
+#organization_block .content .number {
+  position: relative;
+}
+#organization_block .content .number span {
+  position: absolute;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  left: 25px;
+  top: 17px;
+}
+#organization_block .content p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+#organization_block .content .left_item {
+  text-align: right;
+  display: grid;
+  column-gap: 25px;
+  grid-template-columns: 327px 62px;
+}
+#organization_block .content .right_item {
+  display: grid;
+  grid-template-columns: 62px 327px;
+  column-gap: 25px;
+  text-align: left;
+}
+#organization_block .third {
+  padding-left: 759px;
+  padding-top: 10px;
+}
+#organization_block .second {
+  padding-left: 83px;
+}
+#organization_block .fourth {
+  padding-left: 930px;
+  padding-top: 134px;
+}
+#organization_block .first {
+  padding: 81px 0px 160px 45px;
+}

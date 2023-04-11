@@ -1,0 +1,120 @@
+.container {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.label {
+  font-family: "Roboto";
+  background-color: #651fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  width: fit-content;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 5px;
+  position: relative;
+  padding: 10px 30px;
+  border-radius: 4px;
+}
+
+.label::after {
+  content: "";
+  background-image: url(/img/Group.png);
+  position: absolute;
+  left: -2px;
+  z-index: 2;
+  top: 0;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 5px;
+}
+
+.label::before {
+  content: "";
+  transform: rotate(180deg);
+  background-image: url(/img/Group.png);
+  position: absolute;
+  right: -2px;
+  z-index: 2;
+  top: 0;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 5px;
+}
+
+.my_button {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  transition: 400ms;
+  color: #ffffff;
+  position: relative;
+  padding: 16px 30px;
+  background: #ff5900;
+  border-radius: 6px;
+  width: fit-content;
+}
+
+.my_button:hover {
+  background: #e24f00;
+  animation: bounce 900ms ease-in infinite;
+}
+
+.my_button:hover::before {
+  background: #e24f00;
+}
+
+.small_button {
+  padding: 10px 20px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.my_button::before {
+  content: "";
+  clip-path: polygon(0 0, 0% 100%, 35% 50%);
+  background: #ff5900;
+  border-radius: 6px;
+  transition: 400ms;
+  position: absolute;
+  right: -38px;
+  width: 40px;
+  height: 100%;
+  z-index: 2;
+}
+
+.black_button::before {
+  background: #000000;
+}
+
+.black_button {
+  background: #000000;
+}
+
+.black_button:hover {
+  background: darkgray;
+}
+
+.black_button:hover::before {
+  background: darkgray;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

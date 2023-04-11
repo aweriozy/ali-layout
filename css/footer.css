@@ -1,0 +1,36 @@
+footer{
+    margin: 57px 0px;
+  
+    }
+
+footer .footer_content{
+    display: flex;
+    column-gap: 106px;
+}
+
+footer .ending{
+    position: relative;
+display: flex;
+justify-content: space-between;
+margin-top: 134px;
+}
+
+footer .ending .rights{
+    display: flex;
+    align-items: flex-start;
+    column-gap: 19px;
+}
+
+footer .ending .rights h1{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+}
+
+footer #facebook{
+    margin: auto 10px auto 0px;
+
+}

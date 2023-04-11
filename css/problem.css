@@ -1,0 +1,90 @@
+#problem_block .content {
+  padding: 100px 60px 0 150px;
+  display: flex;
+}
+
+#problem_block .content .left_path {
+  border-right: 1px solid black;
+  position: relative;
+  width: 50%;
+}
+
+#problem_block .content .left_path .label {
+  position: absolute;
+  top: 20px;
+  left: -90px;
+}
+
+#problem_block .content .left_path img {
+  width: 100%;
+}
+
+#problem_block .content .left_path p {
+  padding: 50px 80px 76px 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+}
+
+#problem_block .content .right_path {
+  padding-left: 120px;
+  width: 50%;
+}
+
+#problem_block .content .right_path .label {
+  margin-top: 20px;
+  margin-bottom: 64px;
+}
+
+.problem_item {
+  display: grid;
+  grid-template-columns: 120px 300px;
+  grid-gap: 44px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.problem_item .number {
+  position: relative;
+}
+
+.problem_item .number span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 144px;
+  line-height: 106px;
+  text-align: center;
+  color: #000000;
+}
+
+.problem_item .description {
+  position: relative;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.problem_item .tool_tip {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+}

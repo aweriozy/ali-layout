@@ -1,0 +1,139 @@
+#reasons_block {
+  padding-top: 70px;
+}
+#reasons_block .content {
+  padding: 80px 35px 0px 85px;
+  display: flex;
+}
+#reasons_block h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: #000000;
+}
+#reasons_block .content .left_path {
+  border-right: 1px black solid;
+  max-width: 518px;
+  padding-bottom: 92px;
+}
+#reasons_block .content .left_path .label {
+  margin-left: 30px;
+}
+#reasons_block .content .left_path .reasons_left_items {
+  display: flex;
+  flex-direction: column;
+  row-gap: 17px;
+  padding: 45px 128px 63px 63px;
+}
+#reasons_block .content .left_path .reasons_left_items p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  position: relative;
+}
+#reasons_block .content .left_path .reasons_left_items p::after {
+  content: "";
+  z-index: 2;
+  width: 8px;
+  height: 8px;
+  background: url(../img/reasons/tochka.png);
+  position: absolute;
+  left: -36px;
+  top: 6px;
+}
+#reasons_block .content .left_path img {
+  max-width: 519px;
+}
+
+#reasons_block .content .right_path {
+  padding-left: 52px;
+}
+#reasons_block .content .right_path .right_path_items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 57px 47px;
+  padding-top: 47px;
+}
+#reasons_block .content .right_path .right_path_items .right_path_item {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 34px 1fr;
+  column-gap: 12px;
+}
+#reasons_block .content .right_path .right_path_items .right_path_item p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  padding-right: 24px;
+}
+#reasons_block .content .right_path .right_path_footer {
+  padding-top: 108px;
+  display: grid;
+  grid-template-columns: 102px 1fr;
+  column-gap: 20px;
+}
+#reasons_block .content .right_path .right_path_footer p {
+  padding-top: 12px;
+  padding-right: 155px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+#reasons_block .content .right_path .my_button {
+  margin-top: 50px;
+  padding: 17px 96px;
+}
+#reasons_block .footer {
+  background: #7224ea;
+}
+#reasons_block .footer h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 46px;
+  color: #ffffff;
+  padding-top: 47px;
+}
+#reasons_block .footer .footer_content {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 150px;
+  padding-bottom: 80px;
+  row-gap: 45px;
+}
+#reasons_block .footer .footer_content .item {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  column-gap: 20px;
+}
+#reasons_block .footer .footer_content .item h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+#reasons_block .footer .footer_content .item p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  padding-top: 13px;
+  padding-right: 110px;
+}

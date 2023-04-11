@@ -1,0 +1,120 @@
+#registration{
+    background: url(../img/registration/background.png);
+}
+#registraion .position{
+    padding-top: 130px;
+    padding-bottom: 90px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#registration .filling h1{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        color: #000000;
+}
+
+#registration .wrapper{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+
+    background: #FFFFFF;
+}
+
+#registration .wrapper .filling{
+    position: relative;
+    padding-top: 80px;
+    padding-right: 130px;
+    padding-bottom: 65px;
+    padding-left:196px ;
+    z-index: 1;
+}
+
+#registration .wrapper .filling h1{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+
+        color: #000000;
+        margin-bottom:40px ;
+}
+
+#registration .wrapper .filling .pieceOfData{
+    position: static;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    row-gap: 25px;
+    column-gap: 25px;
+}
+
+#registration .wrapper .filling .pieceOfData .data{
+position: static;
+    display: flex;
+    flex-direction: column;
+border-bottom: 1px solid #979797;
+padding-top: 5px;
+padding-right: 0px;
+padding-bottom: 5px;
+padding-left: 0px;
+}
+
+#registration .wrapper .filling .pieceOfData .data .clarification{
+    font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color:#757575;
+}
+
+#registration .wrapper .filling .pieceOfData .data input::placeholder {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.8;
+    color: #212121;
+}
+
+#registration .wrapper .filling .privacyBlock{
+    display: grid;
+    grid-template-columns: 345px 211px;
+    column-gap: 95px;
+    margin-top: 24px;
+}
+
+#registration .wrapper .filling .privacyBlock p{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+    padding-right: 28px;
+    
+        color: #0B0B0B;
+}
+
+#registration .wrapper .filling .privacyBlock p a{
+    text-decoration: underline;
+}
+
+#registration .wrapper .filling .privacyBlock .my_button{
+    padding-top: 5px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+}
+
+#registration .wrapper .filling #reg_circle{
+    position: absolute;
+    top: 27px;
+    left:137px;
+    z-index: -1;
+}
